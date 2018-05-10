@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+	min-height: 700px;
+}
+html {
+	height: 100%;
+}
+input {
+	outline: none;
+}
+.wrap {
+	width: 100%;
+	position: relative;
+	background: url(../img/背景2.jpg) center center no-repeat;
+	background-size: 100% 100%; 
+	min-height: 100%;
+}
+.title-div {
+	width: 700px;
+	height: 200px;
+	margin: 0 auto;
+	background: url(../img/足球1.png) left center no-repeat;
+	background-size: 40% 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 200px
+}
+.nav-div {
+	width: 260px;
+	height: 40px;
+	margin: -40px auto 0;
+}
+.nav-div>div {
+	float: left;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	background: rgb(255 ,255 ,255 ,0.1);
+	text-align: center;
+	font-size: 18px;
+}
+.nav-div .nav-this {
+	color: #000;
+	background: #ffdf00;
+}
+
+.team-wrap {
+	margin-top: 50px;
+	max-height: 600px;
+	overflow-y: auto;
+}
+.team-div {
+	width: 700px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.team-div>div {
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	color: #fff;
+	font-size: 15px;
+}
+.team-div-this {
+	border: 1px solid #fcdf00;
+}
+.team-div-this>div {
+	color: #fcdf00;
+}
+.team-index {
+	width: 130px;
+	text-align: center;
+}
+.team-index1 {
+	background: url(../img/no1.png) center center no-repeat;
+}
+.team-index2 {
+	background: url(../img/no2.png) center center no-repeat;
+}
+.team-index3 {
+	background: url(../img/no3.png) center center no-repeat;
+}
+.team-icon {
+	width: 120px;
+}
+.team-icon>img {
+	margin-top: 15px;
+}
+.team-txt {
+	width: 250px;
+}
+.team-div .team-num {
+	font-size: 18px;
+}
+.btn-div {
+	width:250px;
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+	border-radius: 20px;
+	margin: 20px auto 0;
+	border: 1px solid #fff;
+}
+.btn-div>a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+.zu-img2 {
+	width: 130px;
+	position: absolute;
+	bottom: 150px;
+	right: 170px;
+}
+.zu-img2>img {
+	width: 100%;
+}
+
+
+.head-title {
+	width: 15%;
+	width: 600px;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+}
+.head-title>a {
+	color: #fff;
+}
+.foot-wrap {
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	color: #fff;
+}
+.foot-wrap a{
+	color: #fff;
+}
+.foot-wrap>img {
+	width: 300px;
+}

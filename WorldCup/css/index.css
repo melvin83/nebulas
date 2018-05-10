@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+	min-height: 700px;
+}
+html {
+	height: 100%;
+}
+.wrap {
+	background: url(../img/背景1.jpg) center center no-repeat;
+	background-size: 100% 100%; 
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.language-div {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	width: 100px;
+	height: 30px;
+}
+.btn-language {
+	width: 100%;
+	border: none;
+	background: url(../img/三角下拉选择.png) 92% 50% no-repeat;
+	color: #fff;
+	font-size: 14px;
+	outline: none;
+	cursor: pointer;
+}
+.language-ul {
+	display: none;
+}
+.language-ul li {
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+}
+.language-ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.cup-img {
+	width: 500px;
+	padding-top: 180px;
+	margin: 0px auto;
+}
+.cup-img>img {
+	width: 100%;
+}
+.cup-txt {
+	margin-top: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: #000 10px 10px 10px;
+}
+.btn-div {
+	width: 250px;
+	height: 80px;
+	line-height: 65px;
+	color: #000;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: #fff 2px 3px 5px;
+	margin: 50px auto 0;
+	background: url(../img/按钮.png) center center no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.look-div {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -50px;
+	cursor: pointer;
+}
+.zu-img1 {
+	width: 250px;
+	position: absolute;
+	bottom: 100px;
+	left: 170px;
+}
+.zu-img2 {
+	width: 130px;
+	position: absolute;
+	bottom: 150px;
+	right: 170px;
+}
+.zu-img1>img , .zu-img2>img {
+	width: 100%;
+}
+
+.head-title {
+	width: 15%;
+	width: 600px;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+}
+.head-title>a {
+	color: #fff;
+}
+
+.foot-wrap {
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	color: #fff;
+}
+.foot-wrap a{
+	color: #fff;
+}
+.foot-wrap>img {
+	width: 300px;
+}

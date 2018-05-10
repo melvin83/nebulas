@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- 声明文档使用的字符编码-->
+    <meta charset="utf-8">
+
+    <!--360,以webkit内核进行渲染-->
+    <meta name="renderer" content="webkit">
+    <!--以最新内核进行渲染。-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <!--百度禁止转码-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>2018 FIFA World Cup Voting</title>
+    <link rel="stylesheet" type="text/css" href="../css/choice.css" />
+    <script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="clear-div"></div>
+<!--        <div class="head-div">
+            <div class="head-title">
+                <span>选择钱包：</span>
+            </div>
+            <div class="head-add">
+                <span>导入钱包文件...</span>
+            </div>
+            <div class="head-btn">
+                <span>解锁</span>
+            </div>
+        </div>-->
+<!--        <div class="head-div">
+            <div class="head-title">
+                <span>钱包地址：</span>
+            </div>
+            <div class="head-add">
+                <input type="text" class="address" value="" />
+            </div>
+        </div>-->
+        <div id="noExtension" class="head-title">
+            Please install Chrome Plugin： <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>
+        </div>
+        <div class="ch-div">
+            <div class="ch-title">
+                Please choose your team：<font color="#fcdf00"><span></span></font>
+            </div>
+            <div class="team-div">
+                <div class="team-li">
+                    <img src="../img/丹麦.png" />
+                    <p>Denmark</p>
+                    <input value="danmai" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/乌拉圭.png" />
+                    <p>Uruguay</p>
+                    <input value="wulagui" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/伊朗.png" />
+                    <p>Iran</p>
+                    <input value="yilang" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/俄罗斯.png" />
+                    <p>Russian</p>
+                    <input value="erluoshi" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/克罗地亚.png" />
+                    <p>Croatia</p>
+                    <input value="keluodya" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/冰岛.png" />
+                    <p>Iceland</p>
+                    <input value="bingdao" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/哥伦比亚.png" />
+                    <p>Colombia</p>
+                    <input value="gelunbiya" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/哥斯达黎加.png" />
+                    <p>CostaRica</p>
+                    <input value="gesidalijia" type="hidden" />
+                </div>
+            </div>
+            <div class="team-div">
+                <div class="team-li">
+                    <img src="../img/埃及.png" />
+                    <p>Egypt</p>
+                    <input value="aiji" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/塞内加尔.png" />
+                    <p>Senegal</p>
+                    <input value="saierjiaer" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/塞尔维亚.png" />
+                    <p>Serbia</p>
+                    <input value="saierweiya" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/墨西哥.png" />
+                    <p>Mexico</p>
+                    <input value="moxige" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/尼日利亚.png" />
+                    <p>Nigeria</p>
+                    <input value="niriliya" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/巴拿马.png" />
+                    <p>Panama</p>
+                    <input value="banama" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/巴西.png" />
+                    <p>Brazil</p>
+                    <input value="baxi" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/德国.png" />
+                    <p>Germany</p>
+                    <input value="deguo" type="hidden" />
+                </div>
+            </div>
+            <div class="team-div">
+                <div class="team-li">
+                    <img src="../img/摩洛哥.png" />
+                    <p>Morocco</p>
+                    <input value="moluoge" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/日本.png" />
+                    <p>Japan</p>
+                    <input value="riben" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/比利时.png" />
+                    <p>Belgium</p>
+                    <input value="bilishi" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/沙特.png" />
+                    <p>SaudiArabia</p>
+                    <input value="shate" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/法国.png" />
+                    <p>France</p>
+                    <input value="faguo" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/波兰.png" />
+                    <p>Poland</p>
+                    <input value="bolan" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/澳大利亚.png" />
+                    <p>Australia</p>
+                    <input value="aodaliya" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/瑞典.png" />
+                    <p>Sweden</p>
+                    <input value="ruidian" type="hidden" />
+                </div>
+            </div>
+            <div class="team-div">
+                <div class="team-li">
+                    <img src="../img/瑞士.png" />
+                    <p>Switzerland</p>
+                    <input value="ruishi" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/秘鲁.png" />
+                    <p>Peru</p>
+                    <input value="milu" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/突尼斯.png" />
+                    <p>Tunisia</p>
+                    <input value="tunisi" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/英格兰.png" />
+                    <p>England</p>
+                    <input value="yinggelan" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/葡萄牙.png" />
+                    <p>Portugal</p>
+                    <input value="putaoya" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/西班牙.png" />
+                    <p>Spain</p>
+                    <input value="xibanya" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/阿根廷.png" />
+                    <p>Argentina</p>
+                    <input value="agenting" type="hidden" />
+                </div>
+                <div class="team-li">
+                    <img src="../img/韩国.png" />
+                    <p>Korea</p>
+                    <input value="hanguo" type="hidden" />
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-background">
+            <div id="btnchoice1" class="btn-div">
+                Vote
+            </div>
+            <div id="btnchoice2" class="btn-div">
+                Statistics
+            </div>
+            <button id="btnteamid" style="display:none">创建球队</button>
+        </div>
+
+        
+    </div>
+
+</body>
+<script src="../js/choice_en.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/nebPay.js" type="text/javascript" charset="utf-8"></script>
+
+
+</html>

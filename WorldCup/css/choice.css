@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 1100px;
+	min-height: 700px;
+}
+html {
+	height: 100%;
+}
+input {
+	outline: none;
+}
+.wrap {
+	width: 100%;
+	position: relative;
+	background: url(../img/背景2.jpg) center center no-repeat;
+	background-size: 100% 100%; 
+	padding-bottom: 50px;
+}
+.clear-div {
+	padding-top: 1px;
+	margin-bottom: 50px;
+}
+.head-div {
+	width: 600px;
+	height: 40px;
+	margin: 20px auto 0;
+	color: #fff;
+	line-height: 40px;
+}
+.head-div>div {
+	float: left;
+	box-sizing: border-box;
+	height: 40px;
+}
+.head-title {
+	width: 15%;
+	width: 600px;
+	height: 40px;
+	margin: 20px auto 0;
+	color: #fff;
+	line-height: 40px;
+}
+.head-title>a {
+	color: #fff;
+}
+.head-add {
+	width: 60%;
+	border: 1px solid #fff;
+	background: rgba(255, 255, 255 , 0.2);
+	text-align: center;
+	cursor: pointer;
+}
+.head-btn {
+	text-align: center;
+	width: 15%;
+	border: 1px solid #fff;
+	margin-left: 5%;
+	background: rgba(255, 255, 255 , 0.2);
+	cursor: pointer;
+}
+.address {
+	width: 100%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 0 10px;
+}
+.ch-div {
+	width: 900px;
+	margin: 50px auto;
+}
+.ch-title {
+	border-bottom: 1px dashed #fff;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.team-div {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.team-li {
+	width: 10%;
+	text-align: center;
+	overflow: hidden;
+	box-sizing: border-box;
+	cursor: pointer;
+	border: 2px solid transparent;
+	padding: 5px;
+	font-size: 15px;
+}
+.team-this {
+	border: 2px solid #fcdf00;
+	padding: 5px;
+}
+.team-li>img {
+	width: 100%;
+}
+.team-li>p {
+	color: #fff;
+	margin-top: 5px;
+}
+.btn-background {
+	width: 400px;
+	height: 200px;
+	background: url(../img/喇叭.png) center center no-repeat;
+	background-size: 100% 100%;
+	margin: -50px auto 0;
+	border: 1px solid transparent;
+}
+.btn-div {
+	width: 250px;
+    height: 64px;
+    background: url(../img/按钮.png) center center no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin-top: 107px;
+    margin-left: 60px;
+    line-height: 50px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.foot-wrap {
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	color: #fff;
+}
+.foot-wrap a{
+	color: #fff;
+}
+.foot-wrap>img {
+	width: 300px;
+}
